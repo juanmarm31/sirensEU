@@ -1,0 +1,188 @@
+{
+    "class_to_id": {
+        "france-ambulance": 0,
+        "france-firefighter": 1,
+        "france-police": 2
+    },
+    "conf_matrices": {
+        "highest_cm_filewise": [
+            [
+                70.0,
+                27.500000000000004,
+                2.5
+            ],
+            [
+                0.0,
+                100.0,
+                0.0
+            ],
+            [
+                5.0,
+                20.0,
+                75.0
+            ]
+        ],
+        "highest_cm_framewise": [
+            [
+                55.92485549132948,
+                27.601156069364162,
+                16.473988439306357
+            ],
+            [
+                0.625,
+                99.375,
+                0.0
+            ],
+            [
+                7.623318385650224,
+                22.757847533632287,
+                69.61883408071749
+            ]
+        ],
+        "lowest_cm_filewise": [
+            [
+                70.0,
+                27.500000000000004,
+                2.5
+            ],
+            [
+                0.0,
+                100.0,
+                0.0
+            ],
+            [
+                5.0,
+                20.0,
+                75.0
+            ]
+        ],
+        "lowest_cm_framewise": [
+            [
+                55.92485549132948,
+                27.601156069364162,
+                16.473988439306357
+            ],
+            [
+                0.625,
+                99.375,
+                0.0
+            ],
+            [
+                7.623318385650224,
+                22.757847533632287,
+                69.61883408071749
+            ]
+        ],
+        "mean_cm_filewise": [
+            [
+                70.0,
+                27.500000000000004,
+                2.5
+            ],
+            [
+                0.0,
+                100.0,
+                0.0
+            ],
+            [
+                5.0,
+                20.0,
+                75.0
+            ]
+        ],
+        "mean_cm_framewise": [
+            [
+                55.92485549132948,
+                27.601156069364162,
+                16.473988439306357
+            ],
+            [
+                0.625,
+                99.375,
+                0.0
+            ],
+            [
+                7.623318385650224,
+                22.757847533632287,
+                69.61883408071749
+            ]
+        ],
+        "std_cm_filewise": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "std_cm_framewise": 0.0
+    },
+    "cv_steps": 1,
+    "final_results": {
+        "highest_acc": 0.8166666666666667,
+        "highest_acc_in_cv_step": 1,
+        "lowest_acc": 0.8166666666666667,
+        "lowest_acc_in_cv_step": 1,
+        "mean_file_acc": 0.8166666666666667,
+        "mean_frame_acc": 0.7194767441860465,
+        "std_file_acc": 0.0,
+        "std_frame_acc": 0.0
+    },
+    "number_of_files_test": {
+        "france-ambulance": 40,
+        "france-firefighter": 40,
+        "france-police": 40
+    },
+    "number_of_files_train": {
+        "france-ambulance": 124,
+        "france-firefighter": 124,
+        "france-police": 124
+    },
+    "test": {
+        "X-Shape": [
+            2064,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            2064,
+            3
+        ],
+        "feature_frame": 2064,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_france-ambulance": 692,
+            "class_france-firefighter": 480,
+            "class_france-police": 892
+        }
+    },
+    "training": {
+        "X-Shape": [
+            1860,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            1860,
+            3
+        ],
+        "feature_frame": 1860,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_france-ambulance": 620,
+            "class_france-firefighter": 620,
+            "class_france-police": 620
+        }
+    }
+}

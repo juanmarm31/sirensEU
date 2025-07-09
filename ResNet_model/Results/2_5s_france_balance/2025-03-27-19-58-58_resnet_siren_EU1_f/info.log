@@ -1,0 +1,23 @@
+2025-03-27 19:58:58.860 [ALFpaka] [INFO] ... START TRAINING ... (__training_session:88)
+2025-03-27 19:58:58.860 [ALFpaka] [INFO] Start-Time: 1743101938.8604681 (run_training:126)
+2025-03-27 19:58:58.861 [ALFpaka] [INFO] france-ambulance with id 0 (print_class_to_id:153)
+2025-03-27 19:58:58.861 [ALFpaka] [INFO] france-firefighter with id 1 (print_class_to_id:153)
+2025-03-27 19:58:58.861 [ALFpaka] [INFO] france-police with id 2 (print_class_to_id:153)
+2025-03-27 19:58:58.866 [ALFpaka] [INFO] ------ Extracting features ------ (extractAllFeatures:34)
+2025-03-27 19:58:58.867 [ALFpaka] [ERROR] Empty file list (getDatasetFromFileList:39)
+2025-03-27 19:58:58.868 [ALFpaka] [CRITICAL] Training aborted ...  (_logging_error:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:58:58.875 [ALFpaka] [INFO] Closing session ...  (__training_session:105)

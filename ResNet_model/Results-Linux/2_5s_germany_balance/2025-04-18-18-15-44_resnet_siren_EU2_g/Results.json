@@ -1,0 +1,188 @@
+{
+    "class_to_id": {
+        "germany-ambulance": 0,
+        "germany-firefighter": 1,
+        "germany-police": 2
+    },
+    "conf_matrices": {
+        "highest_cm_filewise": [
+            [
+                45.0,
+                32.5,
+                22.5
+            ],
+            [
+                62.5,
+                37.5,
+                0.0
+            ],
+            [
+                57.49999999999999,
+                27.500000000000004,
+                15.0
+            ]
+        ],
+        "highest_cm_framewise": [
+            [
+                49.00990099009901,
+                35.148514851485146,
+                15.841584158415841
+            ],
+            [
+                61.424731182795696,
+                37.5,
+                1.0752688172043012
+            ],
+            [
+                59.19282511210763,
+                24.551569506726455,
+                16.255605381165918
+            ]
+        ],
+        "lowest_cm_filewise": [
+            [
+                45.0,
+                32.5,
+                22.5
+            ],
+            [
+                62.5,
+                37.5,
+                0.0
+            ],
+            [
+                57.49999999999999,
+                27.500000000000004,
+                15.0
+            ]
+        ],
+        "lowest_cm_framewise": [
+            [
+                49.00990099009901,
+                35.148514851485146,
+                15.841584158415841
+            ],
+            [
+                61.424731182795696,
+                37.5,
+                1.0752688172043012
+            ],
+            [
+                59.19282511210763,
+                24.551569506726455,
+                16.255605381165918
+            ]
+        ],
+        "mean_cm_filewise": [
+            [
+                45.0,
+                32.5,
+                22.5
+            ],
+            [
+                62.5,
+                37.5,
+                0.0
+            ],
+            [
+                57.49999999999999,
+                27.500000000000004,
+                15.0
+            ]
+        ],
+        "mean_cm_framewise": [
+            [
+                49.00990099009901,
+                35.148514851485146,
+                15.841584158415841
+            ],
+            [
+                61.424731182795696,
+                37.5,
+                1.0752688172043012
+            ],
+            [
+                59.19282511210763,
+                24.551569506726455,
+                16.255605381165918
+            ]
+        ],
+        "std_cm_filewise": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "std_cm_framewise": 0.0
+    },
+    "cv_steps": 1,
+    "final_results": {
+        "highest_acc": 0.325,
+        "highest_acc_in_cv_step": 1,
+        "lowest_acc": 0.325,
+        "lowest_acc_in_cv_step": 1,
+        "mean_file_acc": 0.325,
+        "mean_frame_acc": 0.30490196078431375,
+        "std_file_acc": 0.0,
+        "std_frame_acc": 0.0
+    },
+    "number_of_files_test": {
+        "germany-ambulance": 40,
+        "germany-firefighter": 40,
+        "germany-police": 40
+    },
+    "number_of_files_train": {
+        "germany-ambulance": 124,
+        "germany-firefighter": 124,
+        "germany-police": 124
+    },
+    "test": {
+        "X-Shape": [
+            2040,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            2040,
+            3
+        ],
+        "feature_frame": 2040,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_germany-ambulance": 404,
+            "class_germany-firefighter": 744,
+            "class_germany-police": 892
+        }
+    },
+    "training": {
+        "X-Shape": [
+            1860,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            1860,
+            3
+        ],
+        "feature_frame": 1860,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_germany-ambulance": 620,
+            "class_germany-firefighter": 620,
+            "class_germany-police": 620
+        }
+    }
+}

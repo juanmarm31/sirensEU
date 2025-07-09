@@ -1,0 +1,4 @@
+2025-04-22 13:40:51.575 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-22 13:44:13.065 [ALFpaka] [WARNING] WARNING: No validation data found! (training:692)
+2025-04-22 13:44:13.380 [ALFpaka] [WARNING] No validation data set! (train_keras_model:188)
+2025-04-23 05:34:52.754 [ALFpaka] [WARNING] No GIT in PATH variables ([WinError 267] The directory name is invalid) (versioning:24)

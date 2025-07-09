@@ -1,0 +1,36 @@
+{
+    "class_to_id": {
+        "france-ambulance": 0,
+        "france-firefighter": 1,
+        "france-police": 2
+    },
+    "number_of_files_test": {
+        "france-ambulance": 40,
+        "france-firefighter": 40,
+        "france-police": 40
+    },
+    "number_of_files_train": {
+        "france-ambulance": 124,
+        "france-firefighter": 124,
+        "france-police": 124
+    },
+    "training": {
+        "X-Shape": [
+            1860,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            1860,
+            3
+        ],
+        "feature_frame": 1860,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_france-ambulance": 620,
+            "class_france-firefighter": 620,
+            "class_france-police": 620
+        }
+    }
+}

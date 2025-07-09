@@ -1,0 +1,7 @@
+{
+    "class_to_id": {
+        "italy-ambulance": 0,
+        "italy-firefighter": 1,
+        "italy-police": 2
+    }
+}

@@ -1,0 +1,22 @@
+france-ambulance with id 0
+france-firefighter with id 1
+france-police with id 2
+
+--- training data ---
+france-ambulance number of files 124
+france-firefighter number of files 124
+france-police number of files 124
+--- test data ---
+france-ambulance number of files 40
+france-firefighter number of files 40
+france-police number of files 40
+
+--- training data size ---
+X shape (1860, 64, 128, 1)
+Y shape (1860, 3)
+number of features per frame 1
+number of feature frames 1860
+feature frames for france-ambulance: 620
+feature frames for france-firefighter: 620
+feature frames for france-police: 620
+

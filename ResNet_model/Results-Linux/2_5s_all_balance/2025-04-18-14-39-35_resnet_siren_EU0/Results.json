@@ -1,0 +1,8 @@
+{
+    "class_to_id": {
+        "france": 0,
+        "germany": 1,
+        "italy": 2,
+        "spain": 3
+    }
+}

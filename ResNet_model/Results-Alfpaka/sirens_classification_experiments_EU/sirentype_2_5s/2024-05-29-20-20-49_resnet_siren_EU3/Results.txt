@@ -1,0 +1,214 @@
+ambulance with id 0
+firefighter with id 1
+police with id 2
+nosirens with id 3
+
+--- training data ---
+ambulance number of files 56
+firefighter number of files 102
+nosirens number of files 1132
+police number of files 196
+--- test data ---
+ambulance number of files 39
+firefighter number of files 36
+nosirens number of files 125
+police number of files 40
+
+--- training data size ---
+X shape (7311, 64, 128, 2)
+Y shape (7311, 4)
+number of features per frame 2
+number of feature frames 7311
+feature frames for ambulance: 273
+feature frames for firefighter: 496
+feature frames for police: 967
+feature frames for nosirens: 5575
+
+--- test data size ---
+X shape (2700, 64, 128, 2)
+Y shape (2700, 4)
+number of features per frame 2
+number of feature frames 2700
+feature frames for ambulance: 588
+feature frames for firefighter: 584
+feature frames for police: 913
+feature frames for nosirens: 615
+
+
+--- Final results after 1 iterations ---
+Frame acc mean:       0.475925925926
+Frame acc stdev:      0.000000000000
+File acc mean:        0.670833333333
+File acc stdev:       0.000000000000
+Highest file acc:     0.670833333333 (seed = 1)
+Lowest file acc:      0.670833333333 (seed = 1)
+
+
+--- Framewise confusion matrix ---
+
+Highest_framewise Confusion Matrix in %:
+=========================================
+|--------------------------------------------------------------------------|
+| Highest_framewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   34.52    |   17.52    |   24.83    |   23.13    |
+| TRUE-  |firefighter ||   30.14    |   38.18    |   15.58    |   16.10    |
+| LABEL  |   police   ||    9.42    |    7.34    |   31.43    |   51.81    |
+|        |  nosirens  ||    1.63    |    4.23    |    1.14    |   93.01    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      49.29     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Lowest_framewise Confusion Matrix in %:
+========================================
+|--------------------------------------------------------------------------|
+|  Lowest_framewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   34.52    |   17.52    |   24.83    |   23.13    |
+| TRUE-  |firefighter ||   30.14    |   38.18    |   15.58    |   16.10    |
+| LABEL  |   police   ||    9.42    |    7.34    |   31.43    |   51.81    |
+|        |  nosirens  ||    1.63    |    4.23    |    1.14    |   93.01    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      49.29     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Mean_framewise Confusion Matrix in %:
+======================================
+|--------------------------------------------------------------------------|
+|   Mean_framewise    ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   34.52    |   17.52    |   24.83    |   23.13    |
+| TRUE-  |firefighter ||   30.14    |   38.18    |   15.58    |   16.10    |
+| LABEL  |   police   ||    9.42    |    7.34    |   31.43    |   51.81    |
+|        |  nosirens  ||    1.63    |    4.23    |    1.14    |   93.01    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      49.29     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+|--------------------------------------------------------------------------|
+|  STD_framewise      ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||    0.00    |    0.00    |    0.00    |    0.00    |
+| TRUE-  |firefighter ||    0.00    |    0.00    |    0.00    |    0.00    |
+| LABEL  |   police   ||    0.00    |    0.00    |    0.00    |    0.00    |
+|        |  nosirens  ||    0.00    |    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	ambulance 	firefighter	police    	nosirens  	micro_avg 	macro_avg 	
+	-------------------------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	     203.0	     223.0	     287.0	     572.0	
+	TN(True negative/correct rejection)                      	    1840.0	    1920.0	    1543.0	    1382.0	
+	FP(False positive/type 1 error/false alarm)              	     272.0	     196.0	     244.0	     703.0	
+	FN(False negative/miss/type 2 error)                     	     385.0	     361.0	     626.0	      43.0	
+	ACC_PER_CLASS                                            	      0.76	      0.79	      0.68	      0.72	
+	MCR(Miss Class Rate)                                     	      0.24	      0.21	      0.32	      0.28	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	      0.35	      0.38	      0.31	      0.93	      0.48	      0.49	
+	TNR(Specificity or true negative rate)                   	      0.87	      0.91	      0.86	      0.66	
+	FPR(Fall-out or false positive rate)                     	      0.13	      0.09	      0.14	      0.34	
+	FNR(Miss rate or false negative rate)                    	      0.65	      0.62	      0.69	      0.07	
+	PPV(Precision or positive predictive value)              	      0.43	      0.53	      0.54	      0.45	      0.48	      0.49	
+	F1(F1 score - harmonic mean of precision and sensitivity)	      0.38	      0.44	       0.4	      0.61	       nan	      0.46	
+	FOR(False omission rate)                                 	      0.17	      0.16	      0.29	      0.03	
+	FDR(False discovery rate)                                	      0.57	      0.47	      0.46	      0.55	
+	NPV(Negative predictive value)                           	      0.83	      0.84	      0.71	      0.97	
+	MCC(Matthews Correlation Coefficient)                    	      0.23	      0.33	      0.21	       0.5	
+
+
+--- Filewise confusion matrix ---
+
+Highest_filewise Confusion Matrix in %:
+========================================
+|--------------------------------------------------------------------------|
+|  Highest_filewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   25.64    |   23.08    |   25.64    |   25.64    |
+| TRUE-  |firefighter ||   22.22    |   50.00    |   22.22    |    5.56    |
+| LABEL  |   police   ||    5.00    |    5.00    |   32.50    |   57.50    |
+|        |  nosirens  ||    0.00    |    4.00    |    0.00    |   96.00    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      51.04     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Lowest_filewise Confusion Matrix in %:
+=======================================
+|--------------------------------------------------------------------------|
+|  Lowest_filewise    ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   25.64    |   23.08    |   25.64    |   25.64    |
+| TRUE-  |firefighter ||   22.22    |   50.00    |   22.22    |    5.56    |
+| LABEL  |   police   ||    5.00    |    5.00    |   32.50    |   57.50    |
+|        |  nosirens  ||    0.00    |    4.00    |    0.00    |   96.00    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      51.04     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Mean_filewise Confusion Matrix in %:
+=====================================
+|--------------------------------------------------------------------------|
+|   Mean_filewise     ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||   25.64    |   23.08    |   25.64    |   25.64    |
+| TRUE-  |firefighter ||   22.22    |   50.00    |   22.22    |    5.56    |
+| LABEL  |   police   ||    5.00    |    5.00    |   32.50    |   57.50    |
+|        |  nosirens  ||    0.00    |    4.00    |    0.00    |   96.00    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      51.04     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+|--------------------------------------------------------------------------|
+|  STD_filewise       ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        || ambulance  |firefighter |   police   |  nosirens  |
+|---------------------++------------+------------+------------+------------|
+|        | ambulance  ||    0.00    |    0.00    |    0.00    |    0.00    |
+| TRUE-  |firefighter ||    0.00    |    0.00    |    0.00    |    0.00    |
+| LABEL  |   police   ||    0.00    |    0.00    |    0.00    |    0.00    |
+|        |  nosirens  ||    0.00    |    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	ambulance 	firefighter	police    	nosirens  	micro_avg 	macro_avg 	
+	-------------------------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	      10.0	      18.0	      13.0	     120.0	
+	TN(True negative/correct rejection)                      	     191.0	     188.0	     182.0	      80.0	
+	FP(False positive/type 1 error/false alarm)              	      10.0	      16.0	      18.0	      35.0	
+	FN(False negative/miss/type 2 error)                     	      29.0	      18.0	      27.0	       5.0	
+	ACC_PER_CLASS                                            	      0.84	      0.86	      0.81	      0.83	
+	MCR(Miss Class Rate)                                     	      0.16	      0.14	      0.19	      0.17	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	      0.26	       0.5	      0.33	      0.96	      0.67	      0.51	
+	TNR(Specificity or true negative rate)                   	      0.95	      0.92	      0.91	       0.7	
+	FPR(Fall-out or false positive rate)                     	      0.05	      0.08	      0.09	       0.3	
+	FNR(Miss rate or false negative rate)                    	      0.74	       0.5	      0.68	      0.04	
+	PPV(Precision or positive predictive value)              	       0.5	      0.53	      0.42	      0.77	      0.67	      0.56	
+	F1(F1 score - harmonic mean of precision and sensitivity)	      0.34	      0.51	      0.37	      0.86	       nan	      0.52	
+	FOR(False omission rate)                                 	      0.13	      0.09	      0.13	      0.06	
+	FDR(False discovery rate)                                	       0.5	      0.47	      0.58	      0.23	
+	NPV(Negative predictive value)                           	      0.87	      0.91	      0.87	      0.94	
+	MCC(Matthews Correlation Coefficient)                    	      0.28	      0.43	      0.26	      0.68	
+
+
+
+
+Elapsed total time: 12:42:09
+

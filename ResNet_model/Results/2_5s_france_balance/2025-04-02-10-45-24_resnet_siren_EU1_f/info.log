@@ -1,0 +1,41 @@
+2025-04-02 10:45:25.473 [ALFpaka] [INFO] ... START TRAINING ... (__training_session:88)
+2025-04-02 10:45:25.473 [ALFpaka] [INFO] Start-Time: 1743583525.4734886 (run_training:126)
+2025-04-02 10:45:25.474 [ALFpaka] [INFO] ambulance with id 0 (print_class_to_id:153)
+2025-04-02 10:45:25.474 [ALFpaka] [INFO] firefighter with id 1 (print_class_to_id:153)
+2025-04-02 10:45:25.476 [ALFpaka] [INFO] police with id 2 (print_class_to_id:153)
+2025-04-02 10:45:25.479 [ALFpaka] [INFO] ------ Extracting features ------ (extractAllFeatures:34)
+2025-04-02 10:45:25.993 [ALFpaka] [INFO] Extracting features for class ambulance with id 0 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:46:34.302 [ALFpaka] [INFO] Extracting features for class firefighter with id 1 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:47:30.391 [ALFpaka] [INFO] Extracting features for class police with id 2 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:48:28.385 [ALFpaka] [INFO] Extracting features for class ambulance with id 0 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:49:26.728 [ALFpaka] [INFO] Extracting features for class firefighter with id 1 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:50:21.684 [ALFpaka] [INFO] Extracting features for class police with id 2 (extractAndAddFeaturesToDataset:69)
+2025-04-02 10:51:15.684 [ALFpaka] [INFO] Training using one GPU (run_training:144)
+2025-04-02 10:51:15.685 [ALFpaka] [INFO] --- training data --- (get_dataset_and_print_stats:76)
+2025-04-02 10:51:15.685 [ALFpaka] [INFO] ambulance number of files 341 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.685 [ALFpaka] [INFO] firefighter number of files 341 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.685 [ALFpaka] [INFO] police number of files 341 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.686 [ALFpaka] [INFO] --- test data --- (get_dataset_and_print_stats:76)
+2025-04-02 10:51:15.686 [ALFpaka] [INFO] ambulance number of files 110 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.686 [ALFpaka] [INFO] firefighter number of files 110 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.686 [ALFpaka] [INFO] police number of files 110 (get_dataset_and_print_stats:81)
+2025-04-02 10:51:15.713 [ALFpaka] [CRITICAL] Training aborted ...  (_logging_error:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 421, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.dataset_train, addAugmentedData=True)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 6, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 6, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-04-02 10:51:15.719 [ALFpaka] [INFO] Closing session ...  (__training_session:105)

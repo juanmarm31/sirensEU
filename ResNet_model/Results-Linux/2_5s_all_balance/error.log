@@ -1,0 +1,68 @@
+2025-04-18 14:02:28.426 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 14:02:28.454 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 14:02:28.454 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 196, in __extract_all_features
+    mt=self.__training_data_model.multithreading)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 14:03:42.427 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 14:03:42.448 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 14:03:42.448 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 196, in __extract_all_features
+    mt=self.__training_data_model.multithreading)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 14:36:37.599 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 14:36:37.628 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 14:36:37.628 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 14:39:36.117 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 14:39:36.170 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 14:39:36.170 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError

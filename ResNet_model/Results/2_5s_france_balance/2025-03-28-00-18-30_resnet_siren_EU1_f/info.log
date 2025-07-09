@@ -1,0 +1,49 @@
+2025-03-28 00:18:30.573 [ALFpaka] [INFO] ... START TRAINING ... (__training_session:88)
+2025-03-28 00:18:30.574 [ALFpaka] [INFO] Start-Time: 1743117510.5748196 (run_training:126)
+2025-03-28 00:18:30.574 [ALFpaka] [INFO] ambulance with id 0 (print_class_to_id:153)
+2025-03-28 00:18:30.575 [ALFpaka] [INFO] firefighter with id 1 (print_class_to_id:153)
+2025-03-28 00:18:30.575 [ALFpaka] [INFO] police with id 2 (print_class_to_id:153)
+2025-03-28 00:18:30.592 [ALFpaka] [INFO] ------ Extracting features ------ (extractAllFeatures:34)
+2025-03-28 00:18:31.179 [ALFpaka] [INFO] Extracting features for class ambulance with id 0 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:19:04.043 [ALFpaka] [INFO] Extracting features for class firefighter with id 1 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:19:32.392 [ALFpaka] [INFO] Extracting features for class police with id 2 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:20:00.859 [ALFpaka] [INFO] Extracting features for class ambulance with id 0 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:20:28.195 [ALFpaka] [INFO] Extracting features for class firefighter with id 1 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:20:54.001 [ALFpaka] [INFO] Extracting features for class police with id 2 (extractAndAddFeaturesToDataset:69)
+2025-03-28 00:21:21.731 [ALFpaka] [INFO] Training using one GPU (run_training:144)
+2025-03-28 00:21:21.732 [ALFpaka] [INFO] --- training data --- (get_dataset_and_print_stats:76)
+2025-03-28 00:21:21.734 [ALFpaka] [INFO] ambulance number of files 341 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.734 [ALFpaka] [INFO] firefighter number of files 341 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.735 [ALFpaka] [INFO] police number of files 341 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.735 [ALFpaka] [INFO] --- test data --- (get_dataset_and_print_stats:76)
+2025-03-28 00:21:21.736 [ALFpaka] [INFO] ambulance number of files 110 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.736 [ALFpaka] [INFO] firefighter number of files 110 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.737 [ALFpaka] [INFO] police number of files 110 (get_dataset_and_print_stats:81)
+2025-03-28 00:21:21.746 [ALFpaka] [CRITICAL] Training aborted ...  (_logging_error:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 229, in getFeaturesAndClassIDsFromDataset
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 229, in <listcomp>
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "<__array_function__ internals>", line 5, in pad
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 746, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 521, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 5, in broadcast_to
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 180, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 123, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (2,2) and requested shape (4,2)
+2025-03-28 00:21:21.756 [ALFpaka] [INFO] Closing session ...  (__training_session:105)

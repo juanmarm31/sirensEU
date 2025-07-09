@@ -1,0 +1,17 @@
+{
+    "class_to_id": {
+        "ambulance": 0,
+        "firefighter": 1,
+        "police": 2
+    },
+    "number_of_files_test": {
+        "ambulance": 110,
+        "firefighter": 110,
+        "police": 110
+    },
+    "number_of_files_train": {
+        "ambulance": 341,
+        "firefighter": 341,
+        "police": 341
+    }
+}

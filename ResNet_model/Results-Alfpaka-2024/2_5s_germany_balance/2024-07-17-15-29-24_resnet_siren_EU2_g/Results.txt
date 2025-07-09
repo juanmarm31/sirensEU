@@ -1,0 +1,201 @@
+germany-ambulance with id 0
+germany-firefighter with id 1
+germany-police with id 2
+
+--- training data ---
+germany-ambulance number of files 31
+germany-firefighter number of files 31
+germany-police number of files 31
+--- test data ---
+germany-ambulance number of files 10
+germany-firefighter number of files 10
+germany-police number of files 10
+
+--- training data size ---
+X shape (459, 64, 128, 2)
+Y shape (459, 3)
+number of features per frame 2
+number of feature frames 459
+feature frames for germany-ambulance: 155
+feature frames for germany-firefighter: 152
+feature frames for germany-police: 152
+
+--- test data size ---
+X shape (510, 64, 128, 2)
+Y shape (510, 3)
+number of features per frame 2
+number of feature frames 510
+feature frames for germany-ambulance: 101
+feature frames for germany-firefighter: 186
+feature frames for germany-police: 223
+
+
+--- Final results after 1 iterations ---
+Frame acc mean:       0.262745098039
+Frame acc stdev:      0.000000000000
+File acc mean:        0.200000000000
+File acc stdev:       0.000000000000
+Highest file acc:     0.200000000000 (seed = 1)
+Lowest file acc:      0.200000000000 (seed = 1)
+
+
+--- Framewise confusion matrix ---
+
+Highest_framewise Confusion Matrix in %:
+=========================================
+|-------------------------------------------------------------|
+| Highest_framewise   ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   13.86    |   63.37    |   22.77    |
+| LABEL  |germany-firefighter||   50.54    |   42.47    |    6.99    |
+|        |germany-police||   32.29    |   49.33    |   18.39    |
+|--------+------------++------------+------------+------------|
+| ACC:      24.91     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+Lowest_framewise Confusion Matrix in %:
+========================================
+|-------------------------------------------------------------|
+|  Lowest_framewise   ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   13.86    |   63.37    |   22.77    |
+| LABEL  |germany-firefighter||   50.54    |   42.47    |    6.99    |
+|        |germany-police||   32.29    |   49.33    |   18.39    |
+|--------+------------++------------+------------+------------|
+| ACC:      24.91     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+Mean_framewise Confusion Matrix in %:
+======================================
+|-------------------------------------------------------------|
+|   Mean_framewise    ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   13.86    |   63.37    |   22.77    |
+| LABEL  |germany-firefighter||   50.54    |   42.47    |    6.99    |
+|        |germany-police||   32.29    |   49.33    |   18.39    |
+|--------+------------++------------+------------+------------|
+| ACC:      24.91     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+|-------------------------------------------------------------|
+|  STD_framewise      ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||    0.00    |    0.00    |    0.00    |
+| LABEL  |germany-firefighter||    0.00    |    0.00    |    0.00    |
+|        |germany-police||    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	germany-ambulance	germany-firefighter	germany-police	micro_avg 	macro_avg 	
+	----------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	      14.0	      79.0	      41.0	
+	TN(True negative/correct rejection)                      	     243.0	     150.0	     251.0	
+	FP(False positive/type 1 error/false alarm)              	     166.0	     174.0	      36.0	
+	FN(False negative/miss/type 2 error)                     	      87.0	     107.0	     182.0	
+	ACC_PER_CLASS                                            	       0.5	      0.45	      0.57	
+	MCR(Miss Class Rate)                                     	       0.5	      0.55	      0.43	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	      0.14	      0.42	      0.18	      0.26	      0.25	
+	TNR(Specificity or true negative rate)                   	      0.59	      0.46	      0.87	
+	FPR(Fall-out or false positive rate)                     	      0.41	      0.54	      0.13	
+	FNR(Miss rate or false negative rate)                    	      0.86	      0.58	      0.82	
+	PPV(Precision or positive predictive value)              	      0.08	      0.31	      0.53	      0.26	      0.31	
+	F1(F1 score - harmonic mean of precision and sensitivity)	       0.1	      0.36	      0.27	       nan	      0.24	
+	FOR(False omission rate)                                 	      0.26	      0.42	      0.42	
+	FDR(False discovery rate)                                	      0.92	      0.69	      0.47	
+	NPV(Negative predictive value)                           	      0.74	      0.58	      0.58	
+	MCC(Matthews Correlation Coefficient)                    	     -0.22	     -0.11	      0.08	
+
+
+--- Filewise confusion matrix ---
+
+Highest_filewise Confusion Matrix in %:
+========================================
+|-------------------------------------------------------------|
+|  Highest_filewise   ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   10.00    |   70.00    |   20.00    |
+| LABEL  |germany-firefighter||   60.00    |   40.00    |    0.00    |
+|        |germany-police||   30.00    |   60.00    |   10.00    |
+|--------+------------++------------+------------+------------|
+| ACC:      20.00     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+Lowest_filewise Confusion Matrix in %:
+=======================================
+|-------------------------------------------------------------|
+|  Lowest_filewise    ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   10.00    |   70.00    |   20.00    |
+| LABEL  |germany-firefighter||   60.00    |   40.00    |    0.00    |
+|        |germany-police||   30.00    |   60.00    |   10.00    |
+|--------+------------++------------+------------+------------|
+| ACC:      20.00     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+Mean_filewise Confusion Matrix in %:
+=====================================
+|-------------------------------------------------------------|
+|   Mean_filewise     ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||   10.00    |   70.00    |   20.00    |
+| LABEL  |germany-firefighter||   60.00    |   40.00    |    0.00    |
+|        |germany-police||   30.00    |   60.00    |   10.00    |
+|--------+------------++------------+------------+------------|
+| ACC:      20.00     ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+|-------------------------------------------------------------|
+|  STD_filewise       ||    Predicted Label                   |
+|      Confusion      ||------------|------------|------------|
+|       Matrix        ||germany-ambulance|germany-firefighter|germany-police|
+|---------------------++------------+------------+------------|
+| TRUE-  |germany-ambulance||    0.00    |    0.00    |    0.00    |
+| LABEL  |germany-firefighter||    0.00    |    0.00    |    0.00    |
+|        |germany-police||    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------|
+|--------+------------++------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	germany-ambulance	germany-firefighter	germany-police	micro_avg 	macro_avg 	
+	----------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	       1.0	       4.0	       1.0	
+	TN(True negative/correct rejection)                      	      11.0	       7.0	      18.0	
+	FP(False positive/type 1 error/false alarm)              	       9.0	      13.0	       2.0	
+	FN(False negative/miss/type 2 error)                     	       9.0	       6.0	       9.0	
+	ACC_PER_CLASS                                            	       0.4	      0.37	      0.63	
+	MCR(Miss Class Rate)                                     	       0.6	      0.63	      0.37	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	       0.1	       0.4	       0.1	       0.2	       0.2	
+	TNR(Specificity or true negative rate)                   	      0.55	      0.35	       0.9	
+	FPR(Fall-out or false positive rate)                     	      0.45	      0.65	       0.1	
+	FNR(Miss rate or false negative rate)                    	       0.9	       0.6	       0.9	
+	PPV(Precision or positive predictive value)              	       0.1	      0.24	      0.33	       0.2	      0.22	
+	F1(F1 score - harmonic mean of precision and sensitivity)	       0.1	       0.3	      0.15	       0.2	      0.18	
+	FOR(False omission rate)                                 	      0.45	      0.46	      0.33	
+	FDR(False discovery rate)                                	       0.9	      0.76	      0.67	
+	NPV(Negative predictive value)                           	      0.55	      0.54	      0.67	
+	MCC(Matthews Correlation Coefficient)                    	     -0.35	     -0.24	       0.0	
+
+
+
+
+Elapsed total time: 01:09:45
+

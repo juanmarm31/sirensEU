@@ -1,0 +1,122 @@
+2025-04-18 16:10:49.948 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:13:53.513 [ALFpaka] [WARNING] WARNING: No validation data found! (training:692)
+2025-04-18 16:13:54.282 [ALFpaka] [WARNING] No validation data set! (train_keras_model:188)
+2025-04-18 21:03:19.257 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 366, in run_training_per_cv_step
+    self.__train_model_per_cv_step(cvStep)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 693, in __train_model_per_cv_step
+    self.__training_data_model.cv_step_data_model.modelTrain.trainModel(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\train_keras_model.py", line 66, in trainModel
+    return self.__trainModelInternal(featMat, idMat, None, None, trainingParams, cvStep)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\train_keras_model.py", line 203, in __trainModelInternal
+    plot_history(metric_history, val_history, metric, trainingParams.dir_save, cvStep)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\visualization_functions.py", line 160, in plot_history
+  File "<__array_function__ internals>", line 4, in save
+TypeError: _save_dispatcher() got an unexpected keyword argument 'dpi'
+2025-04-19 12:49:49.714 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-19 12:51:31.807 [ALFpaka] [ERROR] ERROR: an error occured during feature extraction. Please check method and parameter or set multithreading (-mt) to false to see further details. (get_features_for_dataset:98)
+2025-04-19 12:51:31.807 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 269, in extractSTFT2D
+    res = extractSTFT(file, class_id, **extract_params)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 174, in extractSTFT
+    x = librosa.feature.melspectrogram(y=y[l], sr=sr, n_fft=fftsize, hop_length=hopsize, n_mels=mel_bands,
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\feature\spectral.py", line 2056, in melspectrogram
+    mel_basis = filters.mel(sr=sr, n_fft=n_fft, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\filters.py", line 230, in mel
+    ramps = np.subtract.outer(mel_f, fftfreqs)
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.02 MiB for an array with shape (130, 1025) and data type float64
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 96, in extractAndAddFeaturesToDataset
+    row = ret.get()
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.02 MiB for an array with shape (130, 1025) and data type float64
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 141, in extractAllFeatures
+    allFeatures = extractFeaturesForAllDatasets(main_parameters=main_parameters,
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 157, in extractFeaturesForAllDatasets
+    dataset_train_with_features = get_features_for_dataset.extractAndAddFeaturesToDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 100, in extractAndAddFeaturesToDataset
+    raise RuntimeError
+RuntimeError
+2025-04-19 12:59:27.263 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-19 13:00:47.803 [ALFpaka] [ERROR] ERROR: an error occured during feature extraction. Please check method and parameter or set multithreading (-mt) to false to see further details. (get_features_for_dataset:98)
+2025-04-19 13:00:47.803 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 269, in extractSTFT2D
+    res = extractSTFT(file, class_id, **extract_params)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 174, in extractSTFT
+    x = librosa.feature.melspectrogram(y=y[l], sr=sr, n_fft=fftsize, hop_length=hopsize, n_mels=mel_bands,
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\feature\spectral.py", line 2043, in melspectrogram
+    S, n_fft = _spectrogram(
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\core\spectrum.py", line 2564, in _spectrogram
+    stft(
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\core\spectrum.py", line 244, in stft
+    stft_matrix = np.empty(shape, dtype=dtype, order="F")
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.69 MiB for an array with shape (1025, 216) and data type complex64
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 96, in extractAndAddFeaturesToDataset
+    row = ret.get()
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.69 MiB for an array with shape (1025, 216) and data type complex64
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 141, in extractAllFeatures
+    allFeatures = extractFeaturesForAllDatasets(main_parameters=main_parameters,
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 157, in extractFeaturesForAllDatasets
+    dataset_train_with_features = get_features_for_dataset.extractAndAddFeaturesToDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 100, in extractAndAddFeaturesToDataset
+    raise RuntimeError
+RuntimeError
+2025-04-20 21:01:26.359 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-20 21:03:48.963 [ALFpaka] [WARNING] WARNING: No validation data found! (training:692)
+2025-04-20 21:03:49.423 [ALFpaka] [WARNING] No validation data set! (train_keras_model:188)
+2025-04-21 01:38:48.021 [ALFpaka] [WARNING] No GIT in PATH variables ([WinError 267] The directory name is invalid) (versioning:24)

@@ -1,0 +1,1183 @@
+2025-03-27 19:46:29.908 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:46:29.926 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:46:29.926 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:47:50.650 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:47:50.670 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:47:50.670 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:51:14.206 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:51:14.221 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:51:14.222 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:54:29.212 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:54:29.227 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:54:29.228 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:55:15.425 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:55:15.443 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:55:15.444 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:56:38.113 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:56:38.127 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:56:38.128 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:57:12.171 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:57:12.188 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:57:12.189 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 19:58:58.849 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 19:58:58.867 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 19:58:58.868 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:02:56.620 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:02:56.634 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:02:56.635 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:12:58.151 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:12:58.167 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:12:58.168 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:13:26.415 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:13:26.433 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:13:26.434 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:14:31.404 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:14:31.419 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:14:31.419 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:20:45.242 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:20:45.261 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:20:45.261 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:21:35.261 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:21:35.275 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:21:35.276 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:23:08.485 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:23:08.501 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:23:08.502 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:25:06.490 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:25:06.511 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:25:06.511 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:26:58.787 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:26:58.805 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:26:58.807 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:31:56.403 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:31:56.417 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:31:56.418 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:32:49.506 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:32:49.522 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:32:49.522 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:33:11.545 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:33:11.563 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:33:11.564 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:33:53.848 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:33:53.877 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:33:53.878 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:34:46.044 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:34:46.069 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:34:46.070 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:35:13.776 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:35:13.795 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:35:13.796 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:36:26.620 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:36:26.644 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:36:26.645 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:37:05.126 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:37:05.143 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:37:05.143 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:37:41.231 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:37:41.249 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:37:41.251 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:38:51.706 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:38:51.724 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:38:51.726 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:42:50.514 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:42:50.530 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:42:50.531 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:55:30.211 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:55:30.223 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:55:30.223 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:56:29.496 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:56:29.512 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:56:29.512 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 20:57:12.965 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 20:57:12.985 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 20:57:12.986 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 21:00:16.565 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:00:16.583 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 21:00:16.584 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 21:00:54.627 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:00:54.643 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 21:00:54.643 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 21:08:30.440 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:08:30.456 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 21:08:30.457 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 21:17:03.131 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:17:03.150 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 21:17:03.150 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 21:23:26.646 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:26:02.382 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 21:31:56.217 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:34:55.188 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 21:36:09.509 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:39:04.540 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 213, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 21:39:42.539 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:42:37.695 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 165, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 21:52:32.194 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 21:52:32.209 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 21:52:32.210 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 22:29:36.156 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 22:29:36.177 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 22:29:36.178 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 22:33:28.584 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 22:33:28.602 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-03-27 22:33:28.604 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-03-27 22:34:30.431 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 22:37:45.759 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:02:53.037 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:06:35.366 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:13:10.611 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:16:45.360 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:23:01.386 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:26:21.479 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 242, in getFeaturesAndClassIDsFromDataset
+    # Discard augmented data if not needed
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:27:22.136 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:30:23.827 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:34:44.625 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:37:34.832 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:40:43.956 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:45:20.345 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:48:23.048 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 225, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:52:36.276 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:55:37.894 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 244, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-27 23:56:29.582 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-27 23:59:41.243 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 244, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-28 00:14:41.848 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-28 00:17:46.470 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 227, in getFeaturesAndClassIDsFromDataset
+    # Ensure consistent dimensions before stacking
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-03-28 00:18:30.563 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-28 00:21:21.746 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 229, in getFeaturesAndClassIDsFromDataset
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 229, in <listcomp>
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "<__array_function__ internals>", line 5, in pad
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 746, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 521, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 5, in broadcast_to
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 180, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 123, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (2,2) and requested shape (4,2)
+2025-03-28 00:23:02.823 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-28 00:25:54.698 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 230, in getFeaturesAndClassIDsFromDataset
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 230, in <listcomp>
+    featStacked = [np.pad(f, ((0, max_length - f.shape[0]), (0, 0)), mode='constant') for f in featStacked]
+  File "<__array_function__ internals>", line 5, in pad
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 746, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\arraypad.py", line 521, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 5, in broadcast_to
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 180, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\lib\stride_tricks.py", line 123, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (2,2) and requested shape (4,2)
+2025-03-28 00:56:12.245 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-03-28 00:59:16.124 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-04-02 10:45:25.457 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-02 10:51:15.713 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 421, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.dataset_train, addAugmentedData=True)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 6, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 6, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-04-18 15:10:06.306 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 15:10:06.362 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 15:10:06.363 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 15:13:28.204 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 15:17:19.480 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 147, in run_training
+    training_per_cv_step.run_training_per_cv_step(cvStep=int(cvStep))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 329, in run_training_per_cv_step
+    self.__split_features_per_cv_step()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 388, in __split_features_per_cv_step
+    self.__split_features_per_cv_step_by_files()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 420, in __split_features_per_cv_step_by_files
+    self.__training_data_model.cv_step_data_model.featStackedTrain, self.__training_data_model.cv_step_data_model.class_idStackedTrain, self.__training_data_model.cv_step_data_model.framesPerFileTrain, self.__training_data_model.cv_step_data_model.dataFilesNamesTrain, self.__training_data_model.cv_step_data_model.augmentedFeatTrain, self.__training_data_model.cv_step_data_model.augmentedClassIdsTrain = get_features_for_dataset.getFeaturesAndClassIDsFromDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 224, in getFeaturesAndClassIDsFromDataset
+    featStacked = np.vstack(featStacked)
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\numpy\core\shape_base.py", line 283, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 3, the array at index 0 has size 2 and the array at index 1 has size 1
+2025-04-18 15:28:23.053 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 15:28:23.083 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 15:28:23.085 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 15:29:48.390 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 15:29:48.425 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 15:29:48.428 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 15:31:05.969 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 15:34:19.348 [ALFpaka] [WARNING] WARNING: No validation data found! (training:692)
+2025-04-18 15:34:21.072 [ALFpaka] [WARNING] No validation data set! (train_keras_model:188)
+2025-04-18 16:03:04.463 [ALFpaka] [WARNING] ... Keyboard-Interrupt ...  (start_training_session:98)
+2025-04-18 16:03:17.496 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:03:17.513 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 16:03:17.515 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 16:03:59.187 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:03:59.206 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 16:03:59.207 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 16:04:35.052 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:04:35.073 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 16:04:35.074 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 16:05:56.643 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:05:56.656 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 16:05:56.657 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 16:09:48.050 [ALFpaka] [WARNING] global batch_size ignored when batch_size is set in generator (read_training_config:269)
+2025-04-18 16:09:48.071 [ALFpaka] [ERROR] Empty file list (get_datasets:39)
+2025-04-18 16:09:48.072 [ALFpaka] [CRITICAL] Training aborted ...  (session:52)
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError

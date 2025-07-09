@@ -1,0 +1,13 @@
+france-ambulance with id 0
+france-firefighter with id 1
+france-police with id 2
+
+--- training data ---
+france-ambulance number of files 341
+france-firefighter number of files 341
+france-police number of files 341
+--- test data ---
+france-ambulance number of files 110
+france-firefighter number of files 110
+france-police number of files 110
+

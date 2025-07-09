@@ -1,0 +1,34 @@
+# TODO: update readme
+# TODO: extend cli to allow for more backends
+# log some status as initializing neuroner takes a while
+# TODO: what happens if both file input and stdinoput are given -> throw exception
+# config.py
+
+import argparse
+from main import main_func
+
+def get_args():
+    parser = argparse.ArgumentParser(description='Train a CNN for sound event detection.')
+    
+    parser.add_argument('--train_dir', required=True, 
+                        help='Path to the training data directory')
+    parser.add_argument('--test_dir', required=True, 
+                        help='Path to the testing data directory')
+    parser.add_argument('--batch_size', type=int, default=2, 
+                        help='Batch size for training')
+    parser.add_argument('--epochs', type=int, default=30, 
+                        help='Number of epochs for training')
+    parser.add_argument('--output_model', required=True, 
+                        help='Path to save the trained model and results')
+    parser.add_argument('--plot_confusion_matrix', action='store_true', default=True, 
+                        help='Whether to display the confusion matrix (default: True)')
+    parser.add_argument('--plot_accuracy', action='store_true', default=True, 
+                        help='Whether to display the accuracy plot (default: True)')
+    parser.add_argument('--plot_f1_score', action='store_true', default=True, 
+                        help='Whether to display the f1 score plot (default: True)')
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    args = get_args()
+    
+    main_func(args.train_dir, args.test_dir, args.batch_size, args.epochs, args.output_model, args.plot_confusion_matrix, args.plot_accuracy, args.plot_f1_score)

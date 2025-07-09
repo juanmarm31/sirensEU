@@ -1,0 +1,23 @@
+2025-04-18 18:08:51.990 [ALFpaka] [INFO] ... START TRAINING ... (__training_session:88)
+2025-04-18 18:08:51.990 [ALFpaka] [INFO] Start-Time: 1744992531.9909742 (run_training:126)
+2025-04-18 18:08:51.991 [ALFpaka] [INFO] germany-ambulance with id 0 (print_class_to_id:153)
+2025-04-18 18:08:51.991 [ALFpaka] [INFO] germany-firefighter with id 1 (print_class_to_id:153)
+2025-04-18 18:08:51.991 [ALFpaka] [INFO] germany-police with id 2 (print_class_to_id:153)
+2025-04-18 18:08:51.997 [ALFpaka] [INFO] ------ Extracting features ------ (extractAllFeatures:34)
+2025-04-18 18:08:51.997 [ALFpaka] [ERROR] Empty file list (getDatasetFromFileList:39)
+2025-04-18 18:08:51.997 [ALFpaka] [CRITICAL] Training aborted ...  (_logging_error:52)
+Traceback (most recent call last):
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/extract_features.py", line 48, in extractAllFeatures
+    dataset_train = get_datasets.getDataset(main_parameters.dir_train, main_parameters.train_pattern, main_parameters.classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 23, in getDataset
+    return getDatasetFromFileList(files, classes)
+  File "/home/juro7695/Documents/Forschungsproject/FP-Sirens/ResNet_model/alf/ALFpaka/core/get_datasets.py", line 40, in getDatasetFromFileList
+    raise RuntimeError
+RuntimeError
+2025-04-18 18:08:52.000 [ALFpaka] [INFO] Closing session ...  (__training_session:105)

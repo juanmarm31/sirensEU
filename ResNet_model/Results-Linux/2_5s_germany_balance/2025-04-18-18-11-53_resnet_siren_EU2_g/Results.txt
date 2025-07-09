@@ -1,0 +1,4 @@
+germany-ambulance with id 0
+germany-firefighter with id 1
+germany-police with id 2
+

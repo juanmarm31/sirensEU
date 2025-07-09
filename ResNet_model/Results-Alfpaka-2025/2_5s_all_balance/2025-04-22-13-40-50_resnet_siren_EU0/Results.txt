@@ -1,0 +1,214 @@
+france with id 0
+germany with id 1
+italy with id 2
+spain with id 3
+
+--- training data ---
+france number of files 372
+germany number of files 372
+italy number of files 372
+spain number of files 372
+--- test data ---
+france number of files 120
+germany number of files 120
+italy number of files 120
+spain number of files 120
+
+--- training data size ---
+X shape (7316, 64, 128, 1)
+Y shape (7316, 4)
+number of features per frame 1
+number of feature frames 7316
+feature frames for france: 1804
+feature frames for germany: 1848
+feature frames for italy: 1832
+feature frames for spain: 1832
+
+--- test data size ---
+X shape (8592, 64, 128, 1)
+Y shape (8592, 4)
+number of features per frame 1
+number of feature frames 8592
+feature frames for france: 2064
+feature frames for germany: 2040
+feature frames for italy: 2444
+feature frames for spain: 2044
+
+
+--- Final results after 1 iterations ---
+Frame acc mean:       0.643389199255
+Frame acc stdev:      0.000000000000
+File acc mean:        0.702083333333
+File acc stdev:       0.000000000000
+Highest file acc:     0.702083333333 (seed = 1)
+Lowest file acc:      0.702083333333 (seed = 1)
+
+
+--- Framewise confusion matrix ---
+
+Highest_framewise Confusion Matrix in %:
+=========================================
+|--------------------------------------------------------------------------|
+| Highest_framewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   45.69    |    2.91    |    0.97    |   50.44    |
+| TRUE-  |  germany   ||    2.40    |   61.13    |    7.30    |   29.17    |
+| LABEL  |   italy    ||    1.60    |    8.27    |   55.24    |   34.90    |
+|        |   spain    ||    1.61    |    0.29    |    0.83    |   97.26    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      64.83     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Lowest_framewise Confusion Matrix in %:
+========================================
+|--------------------------------------------------------------------------|
+|  Lowest_framewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   45.69    |    2.91    |    0.97    |   50.44    |
+| TRUE-  |  germany   ||    2.40    |   61.13    |    7.30    |   29.17    |
+| LABEL  |   italy    ||    1.60    |    8.27    |   55.24    |   34.90    |
+|        |   spain    ||    1.61    |    0.29    |    0.83    |   97.26    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      64.83     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Mean_framewise Confusion Matrix in %:
+======================================
+|--------------------------------------------------------------------------|
+|   Mean_framewise    ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   45.69    |    2.91    |    0.97    |   50.44    |
+| TRUE-  |  germany   ||    2.40    |   61.13    |    7.30    |   29.17    |
+| LABEL  |   italy    ||    1.60    |    8.27    |   55.24    |   34.90    |
+|        |   spain    ||    1.61    |    0.29    |    0.83    |   97.26    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      64.83     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+|--------------------------------------------------------------------------|
+|  STD_framewise      ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||    0.00    |    0.00    |    0.00    |    0.00    |
+| TRUE-  |  germany   ||    0.00    |    0.00    |    0.00    |    0.00    |
+| LABEL  |   italy    ||    0.00    |    0.00    |    0.00    |    0.00    |
+|        |   spain    ||    0.00    |    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	france    	germany   	italy     	spain     	micro_avg 	macro_avg 	
+	-------------------------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	     943.0	    1247.0	    1350.0	    1988.0	
+	TN(True negative/correct rejection)                      	    6407.0	    6284.0	    5962.0	    4059.0	
+	FP(False positive/type 1 error/false alarm)              	     121.0	     268.0	     186.0	    2489.0	
+	FN(False negative/miss/type 2 error)                     	    1121.0	     793.0	    1094.0	      56.0	
+	ACC_PER_CLASS                                            	      0.86	      0.88	      0.85	       0.7	
+	MCR(Miss Class Rate)                                     	      0.14	      0.12	      0.15	       0.3	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	      0.46	      0.61	      0.55	      0.97	      0.64	      0.65	
+	TNR(Specificity or true negative rate)                   	      0.98	      0.96	      0.97	      0.62	
+	FPR(Fall-out or false positive rate)                     	      0.02	      0.04	      0.03	      0.38	
+	FNR(Miss rate or false negative rate)                    	      0.54	      0.39	      0.45	      0.03	
+	PPV(Precision or positive predictive value)              	      0.89	      0.82	      0.88	      0.44	      0.64	      0.76	
+	F1(F1 score - harmonic mean of precision and sensitivity)	       0.6	       0.7	      0.68	      0.61	       nan	      0.65	
+	FOR(False omission rate)                                 	      0.15	      0.11	      0.16	      0.01	
+	FDR(False discovery rate)                                	      0.11	      0.18	      0.12	      0.56	
+	NPV(Negative predictive value)                           	      0.85	      0.89	      0.84	      0.99	
+	MCC(Matthews Correlation Coefficient)                    	      0.57	      0.64	      0.61	      0.51	
+
+
+--- Filewise confusion matrix ---
+
+Highest_filewise Confusion Matrix in %:
+========================================
+|--------------------------------------------------------------------------|
+|  Highest_filewise   ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   50.00    |    0.83    |    0.83    |   48.33    |
+| TRUE-  |  germany   ||    2.50    |   80.83    |    0.83    |   15.83    |
+| LABEL  |   italy    ||    0.00    |    7.50    |   50.83    |   41.67    |
+|        |   spain    ||    0.83    |    0.00    |    0.00    |   99.17    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      70.21     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Lowest_filewise Confusion Matrix in %:
+=======================================
+|--------------------------------------------------------------------------|
+|  Lowest_filewise    ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   50.00    |    0.83    |    0.83    |   48.33    |
+| TRUE-  |  germany   ||    2.50    |   80.83    |    0.83    |   15.83    |
+| LABEL  |   italy    ||    0.00    |    7.50    |   50.83    |   41.67    |
+|        |   spain    ||    0.83    |    0.00    |    0.00    |   99.17    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      70.21     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+Mean_filewise Confusion Matrix in %:
+=====================================
+|--------------------------------------------------------------------------|
+|   Mean_filewise     ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||   50.00    |    0.83    |    0.83    |   48.33    |
+| TRUE-  |  germany   ||    2.50    |   80.83    |    0.83    |   15.83    |
+| LABEL  |   italy    ||    0.00    |    7.50    |   50.83    |   41.67    |
+|        |   spain    ||    0.83    |    0.00    |    0.00    |   99.17    |
+|--------+------------++------------+------------+------------+------------|
+| ACC:      70.21     ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+|--------------------------------------------------------------------------|
+|  STD_filewise       ||    Predicted Label                               |
+|      Confusion      ||------------|------------|------------|------------|
+|       Matrix        ||   france   |  germany   |   italy    |   spain    |
+|---------------------++------------+------------+------------+------------|
+|        |   france   ||    0.00    |    0.00    |    0.00    |    0.00    |
+| TRUE-  |  germany   ||    0.00    |    0.00    |    0.00    |    0.00    |
+| LABEL  |   italy    ||    0.00    |    0.00    |    0.00    |    0.00    |
+|        |   spain    ||    0.00    |    0.00    |    0.00    |    0.00    |
+|--------+------------++------------+------------+------------+------------|
+| STD:      0.00      ++------------+------------+------------+------------|
+|--------+------------++------------+------------+------------+------------|
+
+	Class Statistics: 
+
+	Classes                                                  	france    	germany   	italy     	spain     	micro_avg 	macro_avg 	
+	-------------------------------------------------------------------------------------------------------------------------------------------------------	
+	TP(True positive/hit)                                    	      60.0	      97.0	      61.0	     119.0	
+	TN(True negative/correct rejection)                      	     356.0	     350.0	     358.0	     233.0	
+	FP(False positive/type 1 error/false alarm)              	       4.0	      10.0	       2.0	     127.0	
+	FN(False negative/miss/type 2 error)                     	      60.0	      23.0	      59.0	       1.0	
+	ACC_PER_CLASS                                            	      0.87	      0.93	      0.87	      0.73	
+	MCR(Miss Class Rate)                                     	      0.13	      0.07	      0.13	      0.27	
+	TPR(Sensitivity, recall, hit rate, or true positive rate)	       0.5	      0.81	      0.51	      0.99	       0.7	       0.7	
+	TNR(Specificity or true negative rate)                   	      0.99	      0.97	      0.99	      0.65	
+	FPR(Fall-out or false positive rate)                     	      0.01	      0.03	      0.01	      0.35	
+	FNR(Miss rate or false negative rate)                    	       0.5	      0.19	      0.49	      0.01	
+	PPV(Precision or positive predictive value)              	      0.94	      0.91	      0.97	      0.48	       0.7	      0.82	
+	F1(F1 score - harmonic mean of precision and sensitivity)	      0.65	      0.85	      0.67	      0.65	       0.7	      0.71	
+	FOR(False omission rate)                                 	      0.14	      0.06	      0.14	       0.0	
+	FDR(False discovery rate)                                	      0.06	      0.09	      0.03	      0.52	
+	NPV(Negative predictive value)                           	      0.86	      0.94	      0.86	       1.0	
+	MCC(Matthews Correlation Coefficient)                    	      0.62	      0.81	      0.64	      0.55	
+
+
+
+
+Elapsed total time: 15:53:51
+

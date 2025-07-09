@@ -1,0 +1,17 @@
+{
+    "class_to_id": {
+        "france-ambulance": 0,
+        "france-firefighter": 1,
+        "france-police": 2
+    },
+    "number_of_files_test": {
+        "france-ambulance": 110,
+        "france-firefighter": 110,
+        "france-police": 110
+    },
+    "number_of_files_train": {
+        "france-ambulance": 341,
+        "france-firefighter": 341,
+        "france-police": 341
+    }
+}

@@ -1,0 +1,58 @@
+2025-04-19 12:59:27.313 [ALFpaka] [INFO] ... START TRAINING ... (__training_session:88)
+2025-04-19 12:59:27.314 [ALFpaka] [INFO] Start-Time: 1745060367.3141322 (run_training:126)
+2025-04-19 12:59:27.314 [ALFpaka] [INFO] france-ambulance with id 0 (print_class_to_id:153)
+2025-04-19 12:59:27.315 [ALFpaka] [INFO] france-firefighter with id 1 (print_class_to_id:153)
+2025-04-19 12:59:27.315 [ALFpaka] [INFO] france-police with id 2 (print_class_to_id:153)
+2025-04-19 12:59:27.319 [ALFpaka] [INFO] ------ Extracting features ------ (extractAllFeatures:34)
+2025-04-19 12:59:28.270 [ALFpaka] [INFO] Extracting features for class france-ambulance with id 0 (extractAndAddFeaturesToDataset:69)
+2025-04-19 13:00:06.367 [ALFpaka] [INFO] Extracting features for class france-firefighter with id 1 (extractAndAddFeaturesToDataset:69)
+2025-04-19 13:00:47.803 [ALFpaka] [ERROR] ERROR: an error occured during feature extraction. Please check method and parameter or set multithreading (-mt) to false to see further details. (extractAndAddFeaturesToDataset:98)
+2025-04-19 13:00:47.803 [ALFpaka] [CRITICAL] Training aborted ...  (_logging_error:52)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 269, in extractSTFT2D
+    res = extractSTFT(file, class_id, **extract_params)
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\librosa_extract_methods.py", line 174, in extractSTFT
+    x = librosa.feature.melspectrogram(y=y[l], sr=sr, n_fft=fftsize, hop_length=hopsize, n_mels=mel_bands,
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\feature\spectral.py", line 2043, in melspectrogram
+    S, n_fft = _spectrogram(
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\core\spectrum.py", line 2564, in _spectrogram
+    stft(
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\util\decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\site-packages\librosa\core\spectrum.py", line 244, in stft
+    stft_matrix = np.empty(shape, dtype=dtype, order="F")
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.69 MiB for an array with shape (1025, 216) and data type complex64
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 96, in extractAndAddFeaturesToDataset
+    row = ret.get()
+  File "C:\Users\ju31\anaconda3\envs\alfpaka_env\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.69 MiB for an array with shape (1025, 216) and data type complex64
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\start_training_session.py", line 93, in __training_session
+    training_object.run_training()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 130, in run_training
+    self.__extract_all_features()
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\training.py", line 193, in __extract_all_features
+    self.__training_data_model.allFeatures = extract_features.extractAllFeatures(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 141, in extractAllFeatures
+    allFeatures = extractFeaturesForAllDatasets(main_parameters=main_parameters,
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\extract_features.py", line 157, in extractFeaturesForAllDatasets
+    dataset_train_with_features = get_features_for_dataset.extractAndAddFeaturesToDataset(
+  File "C:\Users\ju31\OneDrive - Technische Universität Ilmenau\TU Ilmenau\WiSe2023-24\Forschungsprojekt\Projekt\FP-Sirens\ResNet_model\alf\ALFpaka\core\get_features_for_dataset.py", line 100, in extractAndAddFeaturesToDataset
+    raise RuntimeError
+RuntimeError
+2025-04-19 13:00:47.812 [ALFpaka] [INFO] Closing session ...  (__training_session:105)

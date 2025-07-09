@@ -1,0 +1,3 @@
+2025-04-19 16:43:11.615 [ALFpaka] [INFO] ###################################################### (start_training_session:128)
+2025-04-19 16:43:11.616 [ALFpaka] [INFO] ---- Config file 1 of 1 (start_training_session:129)
+2025-04-19 16:43:11.616 [ALFpaka] [INFO]  Reading config .... resnet_siren_EU3_f.json (read_training_config:28)

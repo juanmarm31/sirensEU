@@ -1,0 +1,84 @@
+{ "dir_train":"/home/juro7695/Documents/Forschungsproject/DATASET/train-balance-country-class_augmented_12_upgraded",
+  "dir_test":"/home/juro7695/Documents/Forschungsproject/DATASET/test-balance-country-class_augmented_12_upgraded",
+  "train_pattern":"*.wav",
+  "test_pattern":"*.wav",
+  "balance_dataset_train":true,
+  "weight_classes":true,
+  "write_all_test_results": true,
+  "classes": ["spain-ambulance",
+              "spain-firefighter",
+              "spain-police"],
+  "random_seed_init": 0,
+  "batch_size": 64,
+  "number_of_cv_steps": 1,
+  "num_epochs": 120,
+  "patience":20,
+  "is_multilabel": false,
+  "loss_function":"categorical_crossentropy",
+  "early_stopping_monitor_variable": "val_loss",
+  "write_dataset_per_cv": true,
+  "normalize_function": "normalizeToZeroMeanPerBin",
+  "show_layer_output": false,
+  "tensorboard": false,
+  "create_model":"ALFpaka.core.general_models.createResNet",
+  "model_parameter": {
+    "first_conv": [64, 5],
+    "res_blocks": [
+      [64, 3, 3],
+      "p",
+      [64, 3, 1],
+      "p",
+      [64, 3, 3],
+      [128, 3, 1],
+      "p",
+      [256, 1, 1]
+    ],
+    "final_global_pooling": "avg",
+    "version": "ic"
+  },
+  "extract_features": true,
+  "extract_method_to_use": "ALFpaka.core.librosa_extract_methods.extractSTFT2D",
+  "extract_feature_parameter": {
+    "fftsize": 2048,
+    "hopsize": 1024,
+    "sample_rate": 44100,
+    "patchsize": 64,
+    "patchhop": 32,
+    "log_spec": true,
+    "pcen": true,
+    "minimum_duration": 2.5,
+    "mel_bands": 128,
+    "normalize_audio":true,
+    "mono": false
+  },
+  "generator": "ALFpaka.generators.data_generator.NumpyDataGen",
+  "generator_train_params": {
+    "batch_size": 64,
+    "shuffle": true,
+    "aug_factor": 3,
+    "augmentation_function": "ALFpaka.generators.general_augmentations.multi_augmentation",
+    "augmentation_parameters": {
+      "aug_funcs": [["ALFpaka.generators.general_augmentations.random_rotate", {"p": 0.5, "limit": 5, "border_mode": 0, "value": 0}],
+                     ["ALFpaka.generators.general_augmentations.grid_distortion", {"p": 0.5, "border_mode": 0, "value": 0}],
+                     ["ALFpaka.generators.general_augmentations.spec_augment", {"p": 0.5, "frequency_masking_para": 3, "time_masking_para": 3, "frequency_mask_num": 1, "time_mask_num": 1}],
+                     ["ALFpaka.generators.general_augmentations.random_erasing", {"p": 0.5, "pixel_level": true, "s_l": 0.02, "s_h": 0.4, "r_1": 0.3, "r_2": 3.3333333333333335}],
+                     ["ALFpaka.generators.general_augmentations.random_brightness", {"p": 0.5, "limit": 0.2}],
+                     ["ALFpaka.generators.general_augmentations.mixup", {"p": 0.5, "alpha": 0.4}]],
+                    "shuffle_funcs":  true}
+  },
+  "generator_eval_params": {
+    "batch_size": 64
+  },
+  "optimizer": "getOptimizer",
+  "optimize_parameter": {
+    "optimizer": "Adam",
+    "learning_rate": 1e-3
+  },
+  "custom_learning_rate_function": "ALFpaka.core.general_optimizers.CosineWRScheduler",
+  "custom_learning_rate_parameters": {
+    "epochs": 70,
+    "learning_rate": 1e-3,
+    "first_restart_interval": 10,
+    "double_restart_interval": true
+  }
+}

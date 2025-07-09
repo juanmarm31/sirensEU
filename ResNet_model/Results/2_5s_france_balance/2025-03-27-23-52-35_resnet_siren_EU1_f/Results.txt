@@ -1,0 +1,13 @@
+ambulance with id 0
+firefighter with id 1
+police with id 2
+
+--- training data ---
+ambulance number of files 341
+firefighter number of files 341
+police number of files 341
+--- test data ---
+ambulance number of files 110
+firefighter number of files 110
+police number of files 110
+

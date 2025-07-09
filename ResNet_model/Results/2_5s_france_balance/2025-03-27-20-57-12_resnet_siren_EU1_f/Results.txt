@@ -1,0 +1,4 @@
+france-ambulance with id 0
+france-firefighter with id 1
+france-police with id 2
+

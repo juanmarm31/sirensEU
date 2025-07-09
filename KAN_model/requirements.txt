@@ -1,0 +1,14 @@
+numpy~=1.24.3
+scikit-learn~=1.2.2
+matplotlib~=3.7.1
+librosa>=0.10.0
+IPython~=8.13.0
+glob2~=0.7
+zipfile36==0.1.3
+glob2~=0.7
+audiomentations>=0.27.0
+wget>=3.2
+config
+py7zr~=0.21.0
+seaborn~=0.13.2
+pydub~=0.25.1

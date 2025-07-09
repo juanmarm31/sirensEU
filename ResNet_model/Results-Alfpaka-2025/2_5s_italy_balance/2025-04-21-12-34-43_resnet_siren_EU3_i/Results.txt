@@ -1,0 +1,4 @@
+italy-ambulance with id 0
+italy-firefighter with id 1
+italy-police with id 2
+

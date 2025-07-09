@@ -1,0 +1,188 @@
+{
+    "class_to_id": {
+        "spain-ambulance": 0,
+        "spain-firefighter": 1,
+        "spain-police": 2
+    },
+    "conf_matrices": {
+        "highest_cm_filewise": [
+            [
+                30.0,
+                30.0,
+                40.0
+            ],
+            [
+                22.5,
+                60.0,
+                17.5
+            ],
+            [
+                0.0,
+                0.0,
+                100.0
+            ]
+        ],
+        "highest_cm_framewise": [
+            [
+                43.34239130434783,
+                18.88586956521739,
+                37.77173913043478
+            ],
+            [
+                30.061349693251532,
+                52.760736196319016,
+                17.177914110429448
+            ],
+            [
+                0.1524390243902439,
+                1.3719512195121952,
+                98.47560975609755
+            ]
+        ],
+        "lowest_cm_filewise": [
+            [
+                30.0,
+                30.0,
+                40.0
+            ],
+            [
+                22.5,
+                60.0,
+                17.5
+            ],
+            [
+                0.0,
+                0.0,
+                100.0
+            ]
+        ],
+        "lowest_cm_framewise": [
+            [
+                43.34239130434783,
+                18.88586956521739,
+                37.77173913043478
+            ],
+            [
+                30.061349693251532,
+                52.760736196319016,
+                17.177914110429448
+            ],
+            [
+                0.1524390243902439,
+                1.3719512195121952,
+                98.47560975609755
+            ]
+        ],
+        "mean_cm_filewise": [
+            [
+                30.0,
+                30.0,
+                40.0
+            ],
+            [
+                22.5,
+                60.0,
+                17.5
+            ],
+            [
+                0.0,
+                0.0,
+                100.0
+            ]
+        ],
+        "mean_cm_framewise": [
+            [
+                43.34239130434783,
+                18.88586956521739,
+                37.77173913043478
+            ],
+            [
+                30.061349693251532,
+                52.760736196319016,
+                17.177914110429448
+            ],
+            [
+                0.1524390243902439,
+                1.3719512195121952,
+                98.47560975609755
+            ]
+        ],
+        "std_cm_filewise": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "std_cm_framewise": 0.0
+    },
+    "cv_steps": 1,
+    "final_results": {
+        "highest_acc": 0.6333333333333333,
+        "highest_acc_in_cv_step": 1,
+        "lowest_acc": 0.6333333333333333,
+        "lowest_acc_in_cv_step": 1,
+        "mean_file_acc": 0.6333333333333333,
+        "mean_frame_acc": 0.6404109589041096,
+        "std_file_acc": 0.0,
+        "std_frame_acc": 0.0
+    },
+    "number_of_files_test": {
+        "spain-ambulance": 40,
+        "spain-firefighter": 40,
+        "spain-police": 40
+    },
+    "number_of_files_train": {
+        "spain-ambulance": 124,
+        "spain-firefighter": 124,
+        "spain-police": 124
+    },
+    "test": {
+        "X-Shape": [
+            2044,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            2044,
+            3
+        ],
+        "feature_frame": 2044,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_spain-ambulance": 736,
+            "class_spain-firefighter": 652,
+            "class_spain-police": 656
+        }
+    },
+    "training": {
+        "X-Shape": [
+            1832,
+            64,
+            128,
+            1
+        ],
+        "Y-Shape": [
+            1832,
+            3
+        ],
+        "feature_frame": 1832,
+        "feature_per_frame": 1,
+        "number of features_one_hot": {
+            "class_spain-ambulance": 592,
+            "class_spain-firefighter": 620,
+            "class_spain-police": 620
+        }
+    }
+}

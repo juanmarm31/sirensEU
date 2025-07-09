@@ -1,0 +1,188 @@
+{
+    "class_to_id": {
+        "italy-ambulance": 0,
+        "italy-firefighter": 1,
+        "italy-police": 2
+    },
+    "conf_matrices": {
+        "highest_cm_filewise": [
+            [
+                40.0,
+                10.0,
+                50.0
+            ],
+            [
+                50.0,
+                10.0,
+                40.0
+            ],
+            [
+                0.0,
+                30.0,
+                70.0
+            ]
+        ],
+        "highest_cm_framewise": [
+            [
+                40.845070422535215,
+                21.12676056338028,
+                38.028169014084504
+            ],
+            [
+                38.55421686746988,
+                22.89156626506024,
+                38.55421686746988
+            ],
+            [
+                7.2607260726072615,
+                8.58085808580858,
+                84.15841584158416
+            ]
+        ],
+        "lowest_cm_filewise": [
+            [
+                40.0,
+                10.0,
+                50.0
+            ],
+            [
+                50.0,
+                10.0,
+                40.0
+            ],
+            [
+                0.0,
+                30.0,
+                70.0
+            ]
+        ],
+        "lowest_cm_framewise": [
+            [
+                40.845070422535215,
+                21.12676056338028,
+                38.028169014084504
+            ],
+            [
+                38.55421686746988,
+                22.89156626506024,
+                38.55421686746988
+            ],
+            [
+                7.2607260726072615,
+                8.58085808580858,
+                84.15841584158416
+            ]
+        ],
+        "mean_cm_filewise": [
+            [
+                40.0,
+                10.0,
+                50.0
+            ],
+            [
+                50.0,
+                10.0,
+                40.0
+            ],
+            [
+                0.0,
+                30.0,
+                70.0
+            ]
+        ],
+        "mean_cm_framewise": [
+            [
+                40.845070422535215,
+                21.12676056338028,
+                38.028169014084504
+            ],
+            [
+                38.55421686746988,
+                22.89156626506024,
+                38.55421686746988
+            ],
+            [
+                7.2607260726072615,
+                8.58085808580858,
+                84.15841584158416
+            ]
+        ],
+        "std_cm_filewise": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "std_cm_framewise": 0.0
+    },
+    "cv_steps": 1,
+    "final_results": {
+        "highest_acc": 0.4,
+        "highest_acc_in_cv_step": 1,
+        "lowest_acc": 0.4,
+        "lowest_acc_in_cv_step": 1,
+        "mean_file_acc": 0.4,
+        "mean_frame_acc": 0.574468085106383,
+        "std_file_acc": 0.0,
+        "std_frame_acc": 0.0
+    },
+    "number_of_files_test": {
+        "italy-ambulance": 10,
+        "italy-firefighter": 10,
+        "italy-police": 10
+    },
+    "number_of_files_train": {
+        "italy-ambulance": 31,
+        "italy-firefighter": 31,
+        "italy-police": 31
+    },
+    "test": {
+        "X-Shape": [
+            611,
+            64,
+            128,
+            2
+        ],
+        "Y-Shape": [
+            611,
+            3
+        ],
+        "feature_frame": 611,
+        "feature_per_frame": 2,
+        "number of features_one_hot": {
+            "class_italy-ambulance": 142,
+            "class_italy-firefighter": 166,
+            "class_italy-police": 303
+        }
+    },
+    "training": {
+        "X-Shape": [
+            458,
+            64,
+            128,
+            2
+        ],
+        "Y-Shape": [
+            458,
+            3
+        ],
+        "feature_frame": 458,
+        "feature_per_frame": 2,
+        "number of features_one_hot": {
+            "class_italy-ambulance": 152,
+            "class_italy-firefighter": 152,
+            "class_italy-police": 154
+        }
+    }
+}
